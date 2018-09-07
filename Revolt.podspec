@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "10.0"
 
-  s.source = { :http => 'https://github.com/miquido/revolt-sdk-ios-binary/1.0.0/Revolt.zip'}
+  s.source = { :http => 'https://github.com/miquido/revolt-sdk-ios-binary/tree/master/1.0.0'}
   s.ios.vendored_frameworks = 'Revolt.framework'
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1', "ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES" => "YES" }
 
