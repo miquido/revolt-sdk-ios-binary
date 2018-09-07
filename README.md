@@ -25,7 +25,7 @@ use_frameworks!
 
 target :XXXXX do
     pod "Revolt", :git => 
-    "https://miquido.bitbucket.com/revolt-sdk-ios.git"
+    "https://github.com/miquido/revolt-sdk-ios-binary.git"
 end
 ```
 
