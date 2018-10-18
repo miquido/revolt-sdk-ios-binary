@@ -11,6 +11,7 @@ Installation of the Revolt
 | VERSION | UPDATES |
 |---|---|
 | 1.0.0 | Revolt SDK released !!!
+| 1.0.1 | Fix minor issues
 
 
 # Installation
@@ -37,7 +38,7 @@ pod install
 
 If you encounter permission issues, ensure the GitHub username step has been successfully completed. Please consult the cocoapods documentation if you have any other issues with this step. If your process freezes on “Analysing dependencies”, try running *pod repo remove master*, *pod setup*, then *pod install* again.
 
-## Starting the Revolt
+# Start/Stop Revolt
 Starting the Revolt with a trackingId and secret key
 
 To start the Revolt (preferably in your AppDelegate didFinishLaunchingWithOptions) use the following method
@@ -58,6 +59,13 @@ When you want to start/stop sending events. It is important to understand that t
  Revolt.start()
  Revolt.stop()
 
+```
+
+# Log Level
+Any time you are able to change the log level, by default is set to *warning*
+```swift
+
+ Revolt.setLog(level: .debug)
 ```
 
 # Sending Events
