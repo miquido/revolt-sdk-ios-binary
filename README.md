@@ -25,8 +25,7 @@ Once you have cocoa pods installed, navigate to the Podfile in your app’s root
 use_frameworks!
 
 target :XXXXX do
-    pod "Revolt", :git => 
-    "https://miquido.bitbucket.com/revolt-sdk-ios.git"
+    pod 'Revolt'
 end
 ```
 
