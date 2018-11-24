@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|  
     s.name              = 'Revolt'
-    s.version           = '1.0.1'
+    s.version           = '1.0.2'
     s.summary           = 'Revolt SDK, tracking events'
-    s.homepage          = 'http://example.com/'
+    s.homepage          = 'http://miquido.com/'
 
     s.author            = { 'Name' => 'jacek.grygiel@miquido.com' }
     s.license           = { :type => 'MIT', :file => 'LICENSE' }

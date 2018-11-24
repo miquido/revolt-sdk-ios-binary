@@ -12,6 +12,7 @@ Installation of the Revolt
 |---|---|
 | 1.0.0 | Revolt SDK released !!!
 | 1.0.1 | Fix minor issues
+| 1.0.2 | Support for Xcode 10, Swift 4.2
 
 
 # Installation
