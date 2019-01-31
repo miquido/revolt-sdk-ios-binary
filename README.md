@@ -13,6 +13,7 @@ Installation of the Revolt
 | 1.0.0 | Revolt SDK released !!!
 | 1.0.1 | Fix minor issues
 | 1.0.2 | Support for Xcode 10, Swift 4.2
+| 1.0.3 | Support screen tracking, bug fixing
 
 
 # Installation
@@ -60,6 +61,18 @@ When you want to start/stop sending events. It is important to understand that t
  Revolt.stop()
 
 ```
+
+# Screen tracking
+
+We already implemented screen tracking, by default it's enabled
+
+```swift
+
+Revolt.screenTracking(enabled: true)
+Revolt.screenTracking(enabled: false)
+
+```
+
 
 # Log Level
 Any time you are able to change the log level, by default is set to *warning*
