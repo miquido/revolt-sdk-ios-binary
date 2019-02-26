@@ -15,6 +15,7 @@ Installation of the Revolt
 | 1.0.2 | Support for Xcode 10, Swift 4.2
 | 1.0.3 | Support screen tracking, bug fixing
 | 1.0.4 | Fix issue with sending old events
+| 1.0.5 | Add zoneOffset related to GMT difference
 
 
 # Installation
