@@ -17,7 +17,7 @@ Installation of the Revolt
 | 1.0.4 | Fix issue with sending old events
 | 1.0.5 | Add zoneOffset related to GMT difference
 | 1.0.6 | Fix SDK version, and utilize events
-
+| 1.0.7 | Support Swift 5
 
 # Installation
 
