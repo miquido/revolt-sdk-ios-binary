@@ -18,6 +18,7 @@ Installation of the Revolt
 | 1.0.5 | Add zoneOffset related to GMT difference
 | 1.0.6 | Fix SDK version, and utilize events
 | 1.0.7 | Support Swift 5
+| 1.0.8 | Support for Xcode 11
 
 # Installation
 

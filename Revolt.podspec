@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'Revolt'
-    s.version           = '1.0.7'
+    s.version           = '1.0.8'
     s.summary           = 'Revolt SDK, tracking events'
     s.homepage          = 'http://miquido.com/'
 
