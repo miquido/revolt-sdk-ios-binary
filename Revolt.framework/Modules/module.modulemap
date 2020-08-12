@@ -1,4 +1,0 @@
-framework module Revolt {
-  header "Revolt-Swift.h"
-  requires objc
-}
