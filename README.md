@@ -16,6 +16,9 @@ Installation of the Revolt
 | 1.0.3 | Support screen tracking, bug fixing
 | 1.0.4 | Fix issue with sending old events
 | 1.0.5 | Add zoneOffset related to GMT difference
+| 1.0.6	| Fix SDK version, and utilize events
+| 1.0.7	| Support Swift 4.2
+| 1.0.8	| Update for Swift 5.x
 
 
 # Installation
@@ -131,3 +134,19 @@ Types of Events
 ```swift
     Revolt.send(event: .signOut(appUserId: "appUserId"))
 ```
+
+# License
+
+Copyright 2018-2020 Miquido
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
