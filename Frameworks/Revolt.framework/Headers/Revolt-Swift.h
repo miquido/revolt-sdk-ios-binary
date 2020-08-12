@@ -247,7 +247,9 @@ SWIFT_CLASS("_TtC6Revolt6Revolt")
 ///
 /// \param serviceAddress please provide the endpoint to the server
 ///
-+ (void)setupTrackingId:(NSString * _Nonnull)trackingId secretId:(NSString * _Nonnull)secretId maxBatchSize:(NSInteger)maxBatchSize maxEventsInStorage:(NSInteger)maxEventsInStorage minEventDelay:(NSTimeInterval)minEventDelay maxEventDelay:(NSTimeInterval)maxEventDelay serviceAddress:(NSString * _Nonnull)serviceAddress;
+/// \param screenTrackingEnabled automatic screen tracking control, default is true
+///
++ (void)setupTrackingId:(NSString * _Nonnull)trackingId secretId:(NSString * _Nonnull)secretId maxBatchSize:(NSInteger)maxBatchSize maxEventsInStorage:(NSInteger)maxEventsInStorage minEventDelay:(NSTimeInterval)minEventDelay maxEventDelay:(NSTimeInterval)maxEventDelay serviceAddress:(NSString * _Nonnull)serviceAddress screenTrackingEnabled:(BOOL)screenTrackingEnabled;
 /// Start sending events in the Revolt
 + (BOOL)start;
 /// Stop sending events in the Revolt
@@ -531,7 +533,9 @@ SWIFT_CLASS("_TtC6Revolt6Revolt")
 ///
 /// \param serviceAddress please provide the endpoint to the server
 ///
-+ (void)setupTrackingId:(NSString * _Nonnull)trackingId secretId:(NSString * _Nonnull)secretId maxBatchSize:(NSInteger)maxBatchSize maxEventsInStorage:(NSInteger)maxEventsInStorage minEventDelay:(NSTimeInterval)minEventDelay maxEventDelay:(NSTimeInterval)maxEventDelay serviceAddress:(NSString * _Nonnull)serviceAddress;
+/// \param screenTrackingEnabled automatic screen tracking control, default is true
+///
++ (void)setupTrackingId:(NSString * _Nonnull)trackingId secretId:(NSString * _Nonnull)secretId maxBatchSize:(NSInteger)maxBatchSize maxEventsInStorage:(NSInteger)maxEventsInStorage minEventDelay:(NSTimeInterval)minEventDelay maxEventDelay:(NSTimeInterval)maxEventDelay serviceAddress:(NSString * _Nonnull)serviceAddress screenTrackingEnabled:(BOOL)screenTrackingEnabled;
 /// Start sending events in the Revolt
 + (BOOL)start;
 /// Stop sending events in the Revolt

@@ -49,7 +49,7 @@ public enum LogLevel : Swift.Int {
     case signIn(appUserId: Swift.String)
     case signOut(appUserId: Swift.String)
   }
-  @objc(setupTrackingId:secretId:maxBatchSize:maxEventsInStorage:minEventDelay:maxEventDelay:serviceAddress:) public class func setup(trackingId: Swift.String, secretId: Swift.String, maxBatchSize: Swift.Int = 20, maxEventsInStorage: Swift.Int = 10_000, minEventDelay: Foundation.TimeInterval = 0.5, maxEventDelay: Foundation.TimeInterval = 5 * 60, serviceAddress: Swift.String)
+  @objc(setupTrackingId:secretId:maxBatchSize:maxEventsInStorage:minEventDelay:maxEventDelay:serviceAddress:screenTrackingEnabled:) public class func setup(trackingId: Swift.String, secretId: Swift.String, maxBatchSize: Swift.Int = 20, maxEventsInStorage: Swift.Int = 10_000, minEventDelay: Foundation.TimeInterval = 0.5, maxEventDelay: Foundation.TimeInterval = 5 * 60, serviceAddress: Swift.String, screenTrackingEnabled: Swift.Bool = true)
   public class func setLog(level: Revolt.LogLevel)
   public class func getAllLogs() -> Swift.String?
   public class func isRunning() -> Swift.Bool
