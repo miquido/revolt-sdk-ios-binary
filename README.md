@@ -9,16 +9,17 @@ Installation of the Revolt
 
 
 | VERSION | UPDATES |
-|---|---|
-| 1.0.0 | Revolt SDK released !!!
-| 1.0.1 | Fix minor issues
-| 1.0.2 | Support for Xcode 10, Swift 4.2
-| 1.0.3 | Support screen tracking, bug fixing
-| 1.0.4 | Fix issue with sending old events
-| 1.0.5 | Add zoneOffset related to GMT difference
-| 1.0.6	| Fix SDK version, and utilize events
-| 1.0.7	| Support Swift 4.2
-| 1.0.9	| Update for Swift 5.x
+|----|----|
+|  1.0.0  | Revolt SDK released !!!
+|  1.0.1  | Fix minor issues
+|  1.0.2  | Support for Xcode 10, Swift 4.2
+|  1.0.3  | Support screen tracking, bug fixing
+|  1.0.4  | Fix issue with sending old events
+|  1.0.5  | Add zoneOffset related to GMT difference
+|  1.0.6  | Fix SDK version, and utilize events
+|  1.0.7  | Support Swift 4.2
+|  1.0.9  | Update for Swift 5.x
+|  1.0.10 | Fix bitcode settings
 
 
 # Installation
@@ -58,23 +59,14 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
+We already implemented screen tracking. It is enabled by default but you can disable it in setup.
+
 When you want to start/stop sending events. It is important to understand that this framework will collect events offline.
 
 ```swift
 
  Revolt.start()
  Revolt.stop()
-
-```
-
-# Screen tracking
-
-We already implemented screen tracking, by default it's enabled
-
-```swift
-
-Revolt.screenTracking(enabled: true)
-Revolt.screenTracking(enabled: false)
 
 ```
 
