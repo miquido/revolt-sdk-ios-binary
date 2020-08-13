@@ -20,6 +20,7 @@ Installation of the Revolt
 |  1.0.7  | Support Swift 4.2
 |  1.0.9  | Update for Swift 5.x
 |  1.0.10 | Fix bitcode settings
+|  1.0.11 | Fix simulator build
 
 
 # Installation
