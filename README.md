@@ -21,6 +21,7 @@ Installation of the Revolt
 |  1.0.9  | Update for Swift 5.x
 |  1.0.10 | Fix bitcode settings
 |  1.0.11 | Fix simulator build
+|  1.0.12 | Update for Xcode 12, Swift 5.3
 
 
 # Installation
