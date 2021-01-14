@@ -2,7 +2,7 @@
 
 Library is written in Swift. Dedicated for tracking events, using standard JSON format, codable objects or even just dictionary. 
 
-Minimum Deployment Target: iOS 10.0
+Minimum Deployment Target: iOS 12.0
 
 Installation of the Revolt
 # Updates
@@ -19,6 +19,11 @@ Installation of the Revolt
 | 1.0.6 | Fix SDK version, and utilize events
 | 1.0.7 | Support Swift 5
 | 1.0.8 | Support for Xcode 11
+|  1.0.9  | Update for Swift 5.x
+|  1.0.10 | Fix bitcode settings
+|  1.0.11 | Fix simulator build
+|  1.0.12 | Update for Xcode 12, Swift 5.3
+|  1.0.13 | Update for Xcode 12, Target 12.0
 
 # Installation
 
